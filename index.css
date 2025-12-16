@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(gold 20deg,purple 20deg);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: white;
+}
+

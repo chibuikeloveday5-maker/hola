@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Design and Development</title>
+<!-- Primary Meta Tags -->
+<title>Web Design and Development</title>
+<meta name="title" content="Web Design and Development" />
+<meta name="description" content="Hello, I love smoking. Do you have some cigarette? We offer Web Design and Development Here." />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://metatags.io/" />
+<meta property="og:title" content="Web Design and Development" />
+<meta property="og:description" content="Hello, I love smoking. Do you have some cigarette? We offer Web Design and Development Here." />
+<meta property="og:image" content="https://pendanted-squamously-ayanna.ngrok-free.dev/hola.jpg" />
+
+<!-- X (Twitter) -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://metatags.io/" />
+<meta property="twitter:title" content="Web Design and Development" />
+<meta property="twitter:description" content="Hello, I love smoking. Do you have some cigarette? We offer Web Design and Development Here." />
+<meta property="twitter:image" content="https://pendanted-squamously-ayanna.ngrok-free.dev/hola.jpg" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item"></div>
+    </div>
+
+<script>
+    let x = 20;
+    let wrapper = document.querySelector(".wrapper");
+    let item = document.querySelector(".item");
+    item.onclick = function(){
+        console.log(x);
+        let tick = setInterval(function() {
+            x += 1;
+            console.log(x);
+            wrapper.style.backgroundImage = `conic-gradient(gold ${x}deg, purple 20deg)`;
+            if(x == 360) clearInterval(tick);
+        }, 5);
+        
+    }
+    console.log(x);
+</script>
+</body>
+</html>
